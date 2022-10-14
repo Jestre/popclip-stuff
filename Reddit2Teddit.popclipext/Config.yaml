@@ -1,0 +1,7 @@
+# popclip js + multi action example
+name: Reddit 2 Teddit
+requirements: [text, paste]
+actions:
+- title: Paste Teddit
+  icon: circle filled T
+  javascript: popclip.pasteText(popclip.input.text.replace('www.reddit.com', 'teddit.garudalinux.org'))
